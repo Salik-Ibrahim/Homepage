@@ -13,6 +13,10 @@
          font-family: sans-serif;
       }
 
+      body {
+         background: linear-gradient(to right, rgb(13, 0, 72), rgb(108, 0, 108));
+      }
+
       header {
          position: static;
          display: flex;
@@ -47,16 +51,13 @@
          background: transparent;
       }
 
-      body {
-         background-image: linear-gradient(to right, rgb(13, 0, 72), rgb(108, 0, 108));
-         height: 3000px;
-      }
 
       .main-content {
          display: flex;
          justify-content: space-evenly;
          align-items: center;
          margin-top: 100px;
+         margin-bottom: 147px;
       }
 
       .content-section {
@@ -127,6 +128,22 @@
       .boy-photo {
          width: 95%;
       }
+
+      footer {
+         position:static;
+         display: flex;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         padding: 13px;
+         background: linear-gradient(to right, rgb(55, 103, 215), rgb(220, 69, 220));
+         justify-content: center;
+      }
+
+      .reserve-rights {
+         font-size: small;
+         color: white;
+      }
    </style>
 </head>
 
@@ -159,6 +176,11 @@
             class="boy-photo">
       </div>
    </div>
+   <footer>
+      <a class="reserve-rights">
+         All Rights Reserved | abcd@gmail.com
+      </a>
+   </footer>
 </body>
 
 </html>
